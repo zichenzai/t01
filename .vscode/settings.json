@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+    , 
+   "java.errors.incompleteClasspath.severity": "ignore",
+    "java.jdt.ls.java.home":"D:/解释器/java17",
+    "java.configuration.maven.userSettings": "D:/apach/apache-maven-3.9.6/conf/settings.xml",
+    "maven.executable.path": "D:/apach/apache-maven-3.9.6/bin/mvn.cmd",
+    "maven.terminal.useJavaHome": true,
+    "maven.terminal.customEnv": [
+        {
+            "environmentVariable": "JAVA_HOME",
+            "value": "D:/解释器/java17"
+        }
+    ],
+}
